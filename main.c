@@ -6,12 +6,9 @@
 
 void main(void) 
 {	
-	char src[] = "The worst things to eat before you sleep";
-	char dst[100];
+	char str[] = "happy C programming";
 	
-	strcpy(dst, src);
-	
-	printf("copied string : %s", dst);
+	printf("string \"%s\"length : %i", str, strlen(str));
 	
 
 }
